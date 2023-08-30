@@ -1,0 +1,227 @@
+/* Center align the content within the App component */
+.App {
+  text-align: center;
+}
+
+/* Set height and width for images */
+img {
+  height: 300px;
+  width: 250px;
+}
+
+/* Set base styles for the body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ed7966;
+}
+
+/* Style for price text */
+.price {
+  color: #2980b9;
+}
+
+/* Style for rating stars */
+.rating {
+  color: yellow;
+}
+
+/* Styling for edit and delete buttons */
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-top: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Style for unedit button */
+.unedit-btn {
+  background-color: #db2828;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Style for displaying no fashions */
+.no-fashions {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #6d6d6d;
+}
+
+/* Styling for the right container */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for product details */
+.product-details {
+  text-align: center;
+}
+
+/* Styling for list items */
+li {
+  float: left;
+}
+
+/* Styling for editing mode */
+.editing {
+  border: 1px solid #ccc;
+}
+
+/* Styling for price with green color */
+.price {
+  font-size: 16px;
+  color: #2ecc71;
+}
+
+/* Styling for buttons */
+.btn1 {
+  margin-top: 20%;
+}
+
+/* Styling for sort button */
+.sort {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* Styling for edit and delete buttons */
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 5px;
+}
+
+/* Hover styling for edit and delete buttons */
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Base styling for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styling for the body */
+body {
+  background-color: #eee;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: #222;
+}
+
+/* Styling for form container */
+#form {
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Styling for form fields */
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+/* Styling for labels and inputs */
+label,
+input {
+  width: 70%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+label {
+  text-align: right;
+  width: 30%;
+}
+
+/* Styling for inputs */
+input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
+
+/* Styling for add container */
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styling for add form container */
+.add-form {
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form fields */
+.form-field {
+  margin-bottom: 15px;
+}
+
+/* Styling for form field labels */
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Styling for form field inputs and textarea */
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for textarea resizing */
+.form-field textarea {
+  resize: vertical;
+}
+
+/* Styling for submit button */
+.form-field input[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 170px;
+  transition: background-color 0.3s ease;
+  width: 70%;
+  text-align: center;
+}
+
+/* Hover styling for submit button */
+.form-field input[type='submit']:hover {
+  background-color: #0056b3;
+}
